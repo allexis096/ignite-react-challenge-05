@@ -21,7 +21,7 @@ type ModalAppFoodProps = {
   editingFood: any;
 }
 
-export function ModalAddFood({ isOpen, setIsOpen, handleUpdateFood, editingFood }: ModalAppFoodProps) {
+export function ModalEditFood({ isOpen, setIsOpen, handleUpdateFood, editingFood }: ModalAppFoodProps) {
   const formRef = useRef(null);
 
   function handleSubmit(data: any) {
